@@ -81,17 +81,14 @@ public class Pelicula {
      * Imprime detalles película
      */
     public void imprimirDetalles() {
-        System.out.println("Director: " + director);
-        System.out.println("Número total de actores actuales: " + numeroActores);
-        System.out.println("Película terminada: " + peliculaTerminada);
+        System.out.println("Director: " + director + " / Número total de actores actuales: " + numeroActores + " / Película terminada: " + peliculaTerminada);
     }
     
     /**
      * Explica el estado de la película
      */
     public String estadoActualPelicula() {
-        String estadoActualPelicula;
-        estadoActualPelicula = director + numeroActores + peliculaTerminada;
+        String estadoActualPelicula = director + numeroActores + peliculaTerminada;
         return estadoActualPelicula;
     }
 }
